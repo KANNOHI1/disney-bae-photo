@@ -83,6 +83,11 @@
     background: var(--rose); color: #fff; font-size: 12px; font-weight: 700;
     display: flex; align-items: center; justify-content: center;
   }
+  ul.legend li .pin.aid {
+    background: #fff; color: var(--rose);
+    border: 1.5px solid var(--rose); font-size: 14px;
+  }
+  ul.legend li.aidrow { border-color: var(--pink); background: #fdf8f7; }
   ul.legend li b { font-weight: 700; }
   ul.legend li span.where { color: var(--ink-soft); font-size: 12px; display: block; }
 
@@ -153,6 +158,12 @@
         <circle cx="150" cy="272" r="11" fill="#b76e79"/><text x="150" y="276" fill="#fff">5</text>
         <circle cx="128" cy="126" r="11" fill="#b76e79"/><text x="128" y="130" fill="#fff">6</text>
       </g>
+      <!-- first aid -->
+      <g>
+        <circle cx="272" cy="288" r="11" fill="#fff" stroke="#b76e79" stroke-width="2"/>
+        <path d="M272 282 V294 M266 288 H278" stroke="#b76e79" stroke-width="3"/>
+        <text x="294" y="292" font-size="9.5" fill="#a06a74" font-weight="bold">救護室</text>
+      </g>
     </svg>
     <div class="mapnote">※簡略イラストマップ／位置はおおよその目安です</div>
   </div>
@@ -164,6 +175,7 @@
     <li><span class="pin">4</span><b>S.S.コロンビア号</b><span class="where">アメリカンウォーターフロントの大型客船</span></li>
     <li><span class="pin">5</span><b>メディテレーニアンハーバーの路地</b><span class="where">ザンビーニ裏手の小道。フード映えはここで</span></li>
     <li><span class="pin">6</span><b>マーメイドラグーン</b><span class="where">屋内エリア。雨の日・猛暑の避難先にも</span></li>
+    <li class="aidrow"><span class="pin aid">＋</span><b>救護室</b><span class="where">エントランス入って右手（メディテレーニアンハーバー）。体調に違和感が出たらすぐここへ</span></li>
   </ul>
 </section>
 
@@ -215,6 +227,12 @@
         <circle cx="252" cy="88" r="11" fill="#b76e79"/><text x="252" y="92" fill="#fff">9</text>
         <circle cx="252" cy="238" r="11" fill="#b76e79"/><text x="252" y="242" fill="#fff">10</text>
       </g>
+      <!-- first aid -->
+      <g>
+        <circle cx="262" cy="276" r="11" fill="#fff" stroke="#b76e79" stroke-width="2"/>
+        <path d="M262 270 V282 M256 276 H268" stroke="#b76e79" stroke-width="3"/>
+        <text x="284" y="280" font-size="9.5" fill="#a06a74" font-weight="bold">中央救護室</text>
+      </g>
     </svg>
     <div class="mapnote">※簡略イラストマップ／位置はおおよその目安です</div>
   </div>
@@ -224,6 +242,7 @@
     <li><span class="pin">8</span><b>トゥーンタウン</b><span class="where">パーク最奥・右手。カラフルな扉と車</span></li>
     <li><span class="pin">9</span><b>イッツ・ア・スモールワールド</b><span class="where">ファンタジーランドの奥。パステルの外観</span></li>
     <li><span class="pin">10</span><b>イーストサイド・カフェ横の小道</b><span class="where">ワールドバザール右側のレトロな屋根付き空間</span></li>
+    <li class="aidrow"><span class="pin aid">＋</span><b>中央救護室</b><span class="where">ワールドバザールのセンターストリート沿い・東側。体調に違和感が出たらすぐここへ</span></li>
   </ul>
 </section>
 
